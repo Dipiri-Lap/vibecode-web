@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /sample/
 
 Sitemap: https://vibecode.tmhub.co.kr/sitemap.xml

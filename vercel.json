@@ -1,3 +1,10 @@
 {
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/sample/vibecoding-sample.pdf",
+      "destination": "/#sample",
+      "permanent": false
+    }
+  ]
 }
