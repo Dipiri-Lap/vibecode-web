@@ -223,3 +223,18 @@ img{max-width:100%;height:auto;display:block}
 .sample-vis{align-self:end;display:flex;justify-content:center}
 .sample-vis img{width:300px;border-radius:10px 10px 0 0;box-shadow:0 -10px 40px rgba(20,30,70,.12);transform:translateY(6px)}
 @media (max-width:960px){.sample-in{grid-template-columns:1fr;padding:40px 24px 0;gap:10px}.sample-txt{padding-bottom:10px}.sample-vis img{width:240px}}
+
+/* sample form */
+.sform{margin-top:6px;max-width:520px}
+.sf-row{display:flex;gap:8px}
+.sf-row input{flex:1;min-width:0;font:inherit;font-size:16px;padding:14px 16px;border-radius:14px;border:1.5px solid #d5dbe6;background:#fff;outline:none}
+.sf-row input:focus{border-color:var(--b)}
+.sf-row .btn{white-space:nowrap;padding:14px 18px}
+.sf-chk{display:flex;gap:8px;align-items:flex-start;margin-top:12px;font-size:14.5px;color:var(--ink2);cursor:pointer}
+.sf-chk input{margin-top:3px;width:17px;height:17px;accent-color:var(--b)}
+.sf-more{border:0;background:none;color:var(--ink3);text-decoration:underline;font:inherit;font-size:13.5px;cursor:pointer;padding:0 2px}
+.sf-policy{margin:8px 0 0 25px;font-size:13px;color:var(--ink3);background:#fff;border-radius:10px;padding:10px 12px}
+.sf-msg{min-height:20px;margin:10px 0 0;font-size:14px;color:#f04452}
+.sf-done{margin-top:6px;display:grid;gap:12px;justify-items:start}
+.sf-done b{font-size:17px;color:var(--b)}
+@media (max-width:520px){.sf-row{flex-direction:column}.sf-row .btn{width:100%}}
