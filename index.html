@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>바이브 코딩, 끝까지 만드는 법 | 비개발자를 위한 Claude Code 입문 전자책</title>
+<meta name="description" content="코딩을 몰라도 Claude 앱 하나로 웹페이지, 심리테스트, 브라우저 게임, AI 앱을 직접 만들어 인터넷에 공개하는 비개발자용 바이브 코딩 입문서. 기획, 수정 요청, 검수, 공개 전 체크리스트까지. PDF 551쪽, EPUB, 실습 예제 16개.">
+<meta name="keywords" content="바이브 코딩, 바이브코딩 입문, 비개발자 코딩, Claude Code, 클로드 코드, AI 코딩, 노코드, 전자책">
+<meta name="author" content="김도균">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://vibecode.tmhub.co.kr/">
+<meta property="og:type" content="book">
+<meta property="og:site_name" content="바이브 코딩, 끝까지 만드는 법">
+<meta property="og:title" content="바이브 코딩, 끝까지 만드는 법 · 비개발자 입문편">
+<meta property="og:description" content="코딩을 몰라도 Claude 앱 하나로 웹페이지, 심리테스트, 브라우저 게임, AI 앱을 직접 만들어 인터넷에 공개하는 비개발자용 바이브 코딩 입문서. 기획, 수정 요청, 검수, 공개 전 체크리스트까지. PDF 551쪽, EPUB, 실습 예제 16개.">
+<meta property="og:url" content="https://vibecode.tmhub.co.kr/">
+<meta property="og:image" content="https://vibecode.tmhub.co.kr/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta property="book:author" content="김도균">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#2f55e4">
+<link rel="icon" href="./assets/favicon.png">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="./assets/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Book","name":"바이브 코딩, 끝까지 만드는 법","alternateName":"바이브 코딩 끝까지 만드는 법 입문편","author":{"@type":"Person","name":"김도균"},"publisher":{"@type":"Organization","name":"투믹스소프트"},"inLanguage":"ko","bookFormat":"https://schema.org/EBook","numberOfPages":551,"genre":["컴퓨터/IT","프로그래밍 입문"],"about":["바이브 코딩","Claude Code","노코드","AI 코딩"],"description":"코딩을 몰라도 Claude 앱 하나로 웹페이지, 심리테스트, 브라우저 게임, AI 앱을 직접 만들어 인터넷에 공개하는 비개발자용 바이브 코딩 입문서. 기획, 수정 요청, 검수, 공개 전 체크리스트까지. PDF 551쪽, EPUB, 실습 예제 16개.","image":"https://vibecode.tmhub.co.kr/assets/cover.jpg","url":"https://vibecode.tmhub.co.kr/","offers":[{"@type":"Offer","price":"19000","priceCurrency":"KRW","availability":"https://schema.org/InStock","url":"https://kmong.com/gig/849120","seller":{"@type":"Organization","name":"크몽"}},{"@type":"Offer","price":"19000","priceCurrency":"KRW","availability":"https://schema.org/InStock","url":"https://smartstore.naver.com/tomixsoft/products/13835623505","seller":{"@type":"Organization","name":"투믹스소프트"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"코딩을 전혀 몰라도 따라 할 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"네. 이 책은 코딩을 배운 적 없는 분을 위해 썼어요. 4장에서 파일, 폴더, 터미널처럼 꼭 필요한 개념 10가지부터 설명하고, 실습 요청문은 책에서 복사해 붙여 넣으며 따라 하면 돼요."}},{"@type":"Question","name":"무엇이 필요한가요? 돈이 드나요?","acceptedAnswer":{"@type":"Answer","text":"PC와 Claude 앱이 필요해요. 1~8장은 Claude 앱 채팅으로 실습해서 무료 요금제로 시작할 수 있어요. 9장부터는 Code 탭(Claude Code)을 쓰는데, 유료 요금제(Pro 이상)에 포함되어 있어요. 사이트 공개는 Netlify 무료 계정으로 해요."}},{"@type":"Question","name":"어떤 걸 만들어 보나요?","acceptedAnswer":{"@type":"Answer","text":"모임 N빵 정산기(5장), 카카오톡으로 공유되는 심리테스트(15장), 휴대폰과 PC에서 하는 액션 게임(16장), AI 기능이 들어간 앱(17장), 로그인과 데이터 저장이 있는 서비스(18장), 내 아이디어로 만드는 페이지(21장)까지 직접 만들어요. 장별 실습 예제 파일 16개가 함께 들어 있어요."}},{"@type":"Question","name":"맥(Mac)에서도 할 수 있나요?","acceptedAnswer":{"@type":"Answer","text":"실습 화면은 Windows 11 기준이에요. 원리와 순서는 같지만, 맥에서는 메뉴 위치나 단축키가 조금 다를 수 있어요."}},{"@type":"Question","name":"Claude 말고 다른 AI 도구를 써도 되나요?","acceptedAnswer":{"@type":"Answer","text":"2장에서 채팅형, 앱 빌더형, AI 에디터, 코딩 에이전트를 비교한 뒤로는 Claude를 중심으로 설명해요. 다른 도구를 쓰더라도 설명하고, 맥락을 주고, 결과를 확인하는 원리는 같아요."}},{"@type":"Question","name":"AI 도구 화면이 바뀌면 어떻게 하나요?","acceptedAnswer":{"@type":"Answer","text":"화면은 2026년 11월 기준이에요. 본문에는 잘 바뀌지 않는 원리를 쓰고, 버튼 이름과 메뉴 경로처럼 바뀌기 쉬운 것은 장 끝의 '도구 따라 하기' 표에 따로 모았어요."}},{"@type":"Question","name":"구매하면 파일은 어떻게 받나요?","acceptedAnswer":{"@type":"Answer","text":"크몽에서는 결제 후 크몽에서 바로 내려받을 수 있어요. 네이버 스마트스토어에서는 결제가 확인되면 영업일 기준 24시간 안에 네이버 톡톡으로 다운로드 링크를 보내 드려요. PDF, EPUB, 예제 zip이 한 번에 들어 있어요."}},{"@type":"Question","name":"실전편도 있나요?","acceptedAnswer":{"@type":"Answer","text":"이 책은 두 권 중 첫 권인 입문편이에요. 실전편에서는 같은 순서로 외부 서비스 연결, 정해진 시간에 저절로 돌게 하기, 결제, 공개 뒤 운영까지 서비스 일곱 개를 만들어요."}}]}</script>
+</head>
+<body>
+<header class="top"><div class="wrap top-in">
+<a class="brand" href="./"><img src="./assets/cover-thumb.jpg" alt="" width="26" height="38"><span>바이브 코딩, 끝까지</span></a>
+<nav class="nav"><a href="#inside">무엇을 배우나</a><a href="#demos">만들어 볼 것</a><a href="#toc">목차</a><a href="#faq">자주 묻는 질문</a></nav>
+<a class="pill" href="#buy">구매하기</a>
+</div></header>
+<main>
+<section class="hero"><div class="hero-card">
+<div class="hero-txt rv">
+<p class="hero-eyebrow">비개발자 바이브 코딩 · 입문편</p>
+<h1>만들다 멈춘 그 앱,<br>이번엔<br><span>끝까지.</span></h1>
+<p class="hero-lead">코딩을 몰라도 괜찮아요. Claude 앱 하나로<br class="br-d"> 기획부터 인터넷 공개까지, 한 단계씩 따라 하면<br class="br-d"> 친구에게 보낼 내 링크가 생겨요.</p>
+<div class="hero-cta"><a class="btn white" href="https://kmong.com/gig/849120" rel="noopener">크몽에서 구매하기</a><a class="btn glass" href="https://smartstore.naver.com/tomixsoft/products/13835623505" rel="noopener">네이버 스마트스토어</a></div>
+<p class="hero-meta"><span>PDF 551쪽</span><span>EPUB</span><span>실습 예제 16개</span><span>19,000원</span></p>
+</div>
+<div class="hero-vis">
+<div class="book"><img src="./assets/cover.jpg" alt="바이브 코딩, 끝까지 만드는 법 책 표지" width="1024" height="1536" fetchpriority="high"></div>
+<div class="noti n1"><i>🔗</i><div><b>5장 · 30분</b><span>내 첫 웹페이지, 인터넷에 공개 완료</span></div></div>
+<div class="noti n2"><i>💬</i><div><b>15장 · 심리테스트</b><span>카톡으로 공유하면 미리보기까지</span></div></div>
+<div class="noti n3"><i>✅</i><div><b>19장</b><span>공개 전 체크리스트 15개 통과</span></div></div>
+</div>
+</div></section>
+
+<section class="statement rv"><div class="wrap">
+<p class="st-small">AI 덕분에 시작은 10분이면 돼요.</p>
+<p class="st-big">그런데 <b>끝까지 만들어 공개한 사람</b>은<br class="br-d"> 생각보다 <b class="blue">많지 않아요.</b></p>
+<p class="st-small">고치다 엉키고, 망가지고, 어디서부터 다시 해야 할지 몰라서요.<br class="br-d"> 이 책은 그 지점을 넘어가는 순서를 알려 드려요.</p>
+<div class="steps"><div><b>1</b><span>설명하기</span></div><div><b>2</b><span>맥락 주기</span></div><div><b>3</b><span>맡기기</span></div><div><b>4</b><span>확인하기</span></div><div><b>5</b><span>공개·지키기</span></div></div>
+</div></section>
+
+<div id="inside"></div>
+<section class="feat rv"><div class="wrap feat-in">
+<div class="feat-txt"><p class="eyebrow">첫 결과물 · 5장</p><h2>30분이면 내 웹페이지가<br>인터넷에 올라가요</h2><p class="feat-p">이론부터 배우지 않아요. 모임 N빵 정산기를 먼저 만들어 Netlify에 무료로 올리고, 친구에게 주소를 보내 보는 경험부터 해요.</p>
+<ul class="feat-list"><li>AI에게 보내는 첫 요청문을 그대로 따라 쓰기</li><li>내 컴퓨터에서 열어 보고, 무료로 인터넷에 올리기</li><li>휴대폰으로 열리는 내 주소 만들기</li></ul></div>
+<div class="feat-vis tone-sky"><div class="paper"><img src="./assets/p-publish.jpg" alt="5.4 무료로 인터넷에 올리고 주소 공유하기 본문 페이지" loading="lazy" width="760" height="1077"></div></div>
+</div></section>
+
+<section class="feat flip rv"><div class="wrap feat-in">
+<div class="feat-txt"><p class="eyebrow">수정 요청의 기술 · 6장</p><h2>"좀 더 예쁘게" 말고,<br>이렇게 요청해요</h2><p class="feat-p">고칠 때마다 다른 곳이 망가진다면 요청에 재료가 빠진 거예요. 어디를, 지금은 어떤지, 어떻게 바꿀지, 무엇은 그대로 둘지. 네 가지만 넣으면 결과가 달라져요.</p>
+<ul class="feat-list"><li>캡처에 상자를 그려 보여 주기</li><li>"방금 수정은 취소해 줘"로 되돌리기</li><li>한 번에 하나씩 고치고 확인하기</li></ul></div>
+<div class="feat-vis tone-sand"><div class="paper"><img src="./assets/p-fix.jpg" alt="6.3 말 대신 보여 주기: 캡처에 상자를 그려 첨부하기 본문 페이지" loading="lazy" width="760" height="1077"></div></div>
+</div></section>
+
+<section class="feat rv"><div class="wrap feat-in">
+<div class="feat-txt"><p class="eyebrow">맡기고 검수하기 · 7~14장</p><h2>AI에게 일을 맡기고,<br>나는 감독이 돼요</h2><p class="feat-p">Claude 앱의 Code 탭(Claude Code)에게 파일 수정과 실행을 맡기는 법을 배워요. 시작 전에 계획을 보고 승인하고, 끝나면 보고서와 테스트로 결과를 확인해요.</p>
+<ul class="feat-list"><li>기획 문서와 규칙 파일로 매번 같은 설명 반복하지 않기</li><li>작게 쪼개고 저장해서 무한 루프 피하기</li><li>테스트를 먼저 요구해서 비개발자도 검증하기</li></ul></div>
+<div class="feat-vis tone-lilac"><div class="paper"><img src="./assets/p-plan.jpg" alt="12.2 계획 모드: 시작 전에 승인하기 본문 페이지" loading="lazy" width="760" height="1077"></div></div>
+</div></section>
+
+<section class="feat flip rv"><div class="wrap feat-in">
+<div class="feat-txt"><p class="eyebrow">공개하고 지키기 · 19~20장</p><h2>공개 전에<br>15가지만 확인해요</h2><p class="feat-p">비개발자가 공개할 때 가장 많이 하는 실수 일곱 가지와, 출력해서 쓰는 체크리스트를 담았어요. 혹시 망가져도 버전 관리와 GitHub로 언제든 되돌릴 수 있게 해 둬요.</p>
+<ul class="feat-list"><li>비밀번호, API 키가 새지 않게 점검하기</li><li>AI에게 체크리스트 점검 맡기기</li><li>공개된 사이트도 이전 상태로 되돌리기</li></ul></div>
+<div class="feat-vis tone-mint"><div class="paper"><img src="./assets/p-check.jpg" alt="19.2 체크리스트 15개 항목 본문 페이지" loading="lazy" width="760" height="1077"></div></div>
+</div></section>
+
+<section class="demos rv" id="demos"><div class="wrap">
+<h2 class="sec-h">이 책을 따라 실제로 만들어 공개한 것들</h2>
+<p class="sec-p">책에 나온 요청문 그대로 만들어서 지금도 열리는 사이트예요. 눌러서 직접 해 보세요.</p>
+<div class="demo-grid">
+<a class="demo" href="https://haneul-nbbang.netlify.app/" rel="noopener" target="_blank"><div class="device"><img src="./assets/demo-nbbang.jpg" alt="모임 N빵 정산기 화면" loading="lazy" width="390" height="844"></div><b>모임 N빵 정산기</b><span>5장 · 첫 웹페이지</span><em>열어 보기 →</em></a>
+<a class="demo" href="https://travel-style-test.netlify.app/" rel="noopener" target="_blank"><div class="device"><img src="./assets/demo-travel.jpg" alt="나의 여행 스타일 테스트 화면" loading="lazy" width="390" height="844"></div><b>나의 여행 스타일 테스트</b><span>15장 · 카톡 공유 심리테스트</span><em>열어 보기 →</em></a>
+<a class="demo" href="https://sansin-night.netlify.app/" rel="noopener" target="_blank"><div class="device"><img src="./assets/demo-game.jpg" alt="산신령의 밤 게임 화면" loading="lazy" width="390" height="844"></div><b>산신령의 밤</b><span>16장 · 브라우저 액션 게임</span><em>열어 보기 →</em></a>
+<a class="demo" href="https://jeju-trip-plan.netlify.app/" rel="noopener" target="_blank"><div class="device"><img src="./assets/demo-jeju.jpg" alt="제주 2박 3일 여행 계획 페이지 화면" loading="lazy" width="390" height="844"></div><b>제주 2박 3일</b><span>21장 · 내 아이디어로 끝까지</span><em>열어 보기 →</em></a>
+</div></div></section>
+
+<section class="who rv"><div class="wrap">
+<h2 class="sec-h">이런 분을 위해 썼어요</h2>
+<p class="sec-p">코딩 문법을 외우는 책이 아니라, 내 것을 끝까지 만들어 보는 책이에요.</p>
+<div class="who-grid">
+<div class="who-card"><i>🛠️</i><div><h3>코딩은 처음이지만 직접 만들고 싶은 분</h3><p>생활이나 모임에서 쓸 작은 도구, 사이드 프로젝트를 내 손으로.</p></div></div>
+<div class="who-card"><i>🌀</i><div><h3>AI로 해 봤는데 중간에 멈춘 분</h3><p>고치다 엉키고 망가져서 끝까지 못 간 경험이 있다면.</p></div></div>
+<div class="who-card"><i>📋</i><div><h3>시제품을 직접 만들어 보고 싶은 기획자·마케터</h3><p>개발자에게 맡기기 전에 기획과 프로토타입을 먼저.</p></div></div>
+<div class="who-card"><i>📅</i><div><h3>매일 쓰는 도구를 내 손에 맞게</h3><p>가계부, 습관 기록처럼 나한테 딱 맞는 걸 만들고 싶은 분.</p></div></div>
+</div>
+<p class="who-not">프로그래밍 언어 문법을 체계적으로 배우고 싶은 분이나, 이미 대규모 서비스를 운영하는 개발자분께는 맞지 않을 수 있어요.</p>
+</div></section>
+
+<section class="pack rv" id="buy"><div class="pack-in">
+<div><h2>한 번 사면<br>전부 들어 있어요</h2>
+<p class="price"><b>19,000원</b>입문편 · 디지털 파일</p>
+<div class="buy"><a class="btn blue" href="https://kmong.com/gig/849120" rel="noopener">크몽에서 구매하기</a><a class="btn green" href="https://smartstore.naver.com/tomixsoft/products/13835623505" rel="noopener">네이버 스마트스토어</a></div></div>
+<div class="pk-list">
+<div><b>551쪽</b><span>PDF 전자책</span><em>21장 + 들어가며, 마치며</em></div>
+<div><b>EPUB</b><span>전자책 뷰어용</span><em>휴대폰·태블릿에서 편하게</em></div>
+<div><b>16개</b><span>장별 실습 예제 zip</span><em>막히면 완성본과 비교</em></div>
+<div><b>부록 5종</b><span>곁에 두고 꺼내 쓰기</span><em>요청문 템플릿, 에러 사전, 체크리스트 등</em></div>
+</div>
+</div></section>
+
+<section class="toc rv" id="toc"><div class="wrap">
+<h2 class="sec-h">목차</h2>
+<p class="sec-p">6부 21장과 부록 5종. 처음이라면 순서대로, 손부터 움직이고 싶다면 5장부터 시작해도 돼요.</p>
+<div class="toc-grid">
+<details class="part" open><summary><span>1부. 지금의 바이브 코딩<small>무엇이 바뀌었고, 무엇을 쓰나</small></span></summary><ol><li><b>1장</b>1년 사이 무엇이 바뀌었나: 자동완성 → 대화 → 에이전트</li><li><b>2장</b>도구 지형도: 채팅형 / 앱 빌더형 / AI 에디터 / 코딩 에이전트, 무엇을 언제 쓰나</li><li><b>3장</b>누구나 시작하지만 아무나 완성하진 못한다: 성공하는 사람들의 공통점</li><li><b>4장</b>비개발자가 꼭 알아야 할 개념 10가지</li></ol></details>
+<details class="part" open><summary><span>2부. 첫 결과물<small>먼저 하나 완성해 보기</small></span></summary><ol><li><b>5장</b>30분 만에 웹페이지 만들고 인터넷에 공개하기</li><li><b>6장</b>고치고 싶을 때 말하는 법: 수정 요청의 기술</li></ol></details>
+<details class="part"><summary><span>3부. 컨텍스트 설계<small>AI가 알고 시작하게</small></span></summary><ol><li><b>7장</b>프롬프트보다 컨텍스트: AI가 '알고 시작하게' 만들기</li><li><b>8장</b>기획 문서를 먼저 만든다: 요구사항·화면·데이터를 한 장으로</li><li><b>9장</b>프로젝트 규칙 파일 만들기: 매번 같은 설명 반복하지 않기</li><li><b>10장</b>작게 쪼개기와 저장: 무한 루프에 빠지지 않는 법</li></ol></details>
+<details class="part"><summary><span>4부. 에이전트에게 일 맡기기<small>사람은 감독이 된다</small></span></summary><ol><li><b>11장</b>에이전트형 도구는 무엇이 다른가</li><li><b>12장</b>일을 맡기고 결과를 검수하는 법: 사람은 '감독'이 된다</li><li><b>13장</b>테스트를 먼저 요구하기: 비개발자도 할 수 있는 검증</li><li><b>14장</b>모델 나눠 쓰기: 기획용·구현용·검토용</li></ol></details>
+<details class="part"><summary><span>5부. 실전 프로젝트<small>네 가지를 직접 만든다</small></span></summary><ol><li><b>15장</b>콘텐츠형 사이트: 심리테스트·퀴즈</li><li><b>16장</b>브라우저 게임: 몰려오는 몬스터를 버티는 액션 게임</li><li><b>17장</b>AI 기능이 들어간 앱 (API 연동)</li><li><b>18장</b>데이터를 저장하고 로그인하는 서비스</li></ol></details>
+<details class="part"><summary><span>6부. 공개하고 지키기<small>실수 없이 공개, 언제든 되돌리기</small></span></summary><ol><li><b>19장</b>공개 전 체크리스트</li><li><b>20장</b>버전 관리로 되돌릴 수 있게 하기</li><li><b>21장</b>내 아이디어로 끝까지</li></ol></details>
+<details class="part"><summary><span>부록. 곁에 두고 꺼내 쓰는 다섯 가지<small>템플릿부터 용어집까지</small></span></summary><ol><li><b>부록 A</b>상황별 요청문·컨텍스트 템플릿</li><li><b>부록 B</b>에러 메시지 사전</li><li><b>부록 C</b>공개 전 보안 체크리스트 (출력용)</li><li><b>부록 D</b>용어집</li><li><b>부록 E</b>터미널에서 쓰는 Claude Code</li></ol></details>
+</div>
+<div class="toc-pages"><img src="./assets/p-toc.jpg" alt="바이브 코딩 끝까지 만드는 법 차례 페이지" loading="lazy" width="760" height="1077"><img src="./assets/p-appendix.jpg" alt="부록 C 공개 전 보안 체크리스트 페이지" loading="lazy" width="760" height="1077"></div>
+</div></section>
+
+<section class="author rv"><div class="wrap"><div class="au-card">
+<div class="au-ava">김</div>
+<div><h2>지은이 김도균</h2><p>12년 차 개발자예요. 이 책의 모든 실습은 비개발자 입장에서 Claude 앱으로 직접 실행하고, 결과가 맞는지 제가 직접 확인했어요. 책에 나오는 사이트들은 그렇게 만들어 지금도 공개되어 있어요.</p>
+<div class="au-tags"><span>12년 차 개발자</span><span>구글 플레이 앱·게임 12개 출시</span><span>웹 서비스 운영 중</span></div></div>
+</div></div></section>
+
+<section class="wrap faq-wrap rv" id="faq"><h2>자주 묻는 질문</h2><div class="faq">
+<details><summary>코딩을 전혀 몰라도 따라 할 수 있나요?</summary><p>네. 이 책은 코딩을 배운 적 없는 분을 위해 썼어요. 4장에서 파일, 폴더, 터미널처럼 꼭 필요한 개념 10가지부터 설명하고, 실습 요청문은 책에서 복사해 붙여 넣으며 따라 하면 돼요.</p></details>
+<details><summary>무엇이 필요한가요? 돈이 드나요?</summary><p>PC와 Claude 앱이 필요해요. 1~8장은 Claude 앱 채팅으로 실습해서 무료 요금제로 시작할 수 있어요. 9장부터는 Code 탭(Claude Code)을 쓰는데, 유료 요금제(Pro 이상)에 포함되어 있어요. 사이트 공개는 Netlify 무료 계정으로 해요.</p></details>
+<details><summary>어떤 걸 만들어 보나요?</summary><p>모임 N빵 정산기(5장), 카카오톡으로 공유되는 심리테스트(15장), 휴대폰과 PC에서 하는 액션 게임(16장), AI 기능이 들어간 앱(17장), 로그인과 데이터 저장이 있는 서비스(18장), 내 아이디어로 만드는 페이지(21장)까지 직접 만들어요. 장별 실습 예제 파일 16개가 함께 들어 있어요.</p></details>
+<details><summary>맥(Mac)에서도 할 수 있나요?</summary><p>실습 화면은 Windows 11 기준이에요. 원리와 순서는 같지만, 맥에서는 메뉴 위치나 단축키가 조금 다를 수 있어요.</p></details>
+<details><summary>Claude 말고 다른 AI 도구를 써도 되나요?</summary><p>2장에서 채팅형, 앱 빌더형, AI 에디터, 코딩 에이전트를 비교한 뒤로는 Claude를 중심으로 설명해요. 다른 도구를 쓰더라도 설명하고, 맥락을 주고, 결과를 확인하는 원리는 같아요.</p></details>
+<details><summary>AI 도구 화면이 바뀌면 어떻게 하나요?</summary><p>화면은 2026년 11월 기준이에요. 본문에는 잘 바뀌지 않는 원리를 쓰고, 버튼 이름과 메뉴 경로처럼 바뀌기 쉬운 것은 장 끝의 '도구 따라 하기' 표에 따로 모았어요.</p></details>
+<details><summary>구매하면 파일은 어떻게 받나요?</summary><p>크몽에서는 결제 후 크몽에서 바로 내려받을 수 있어요. 네이버 스마트스토어에서는 결제가 확인되면 영업일 기준 24시간 안에 네이버 톡톡으로 다운로드 링크를 보내 드려요. PDF, EPUB, 예제 zip이 한 번에 들어 있어요.</p></details>
+<details><summary>실전편도 있나요?</summary><p>이 책은 두 권 중 첫 권인 입문편이에요. 실전편에서는 같은 순서로 외부 서비스 연결, 정해진 시간에 저절로 돌게 하기, 결제, 공개 뒤 운영까지 서비스 일곱 개를 만들어요.</p></details>
+</div></section>
+
+<section class="final rv"><div class="final-card">
+<img src="./assets/cover-thumb.jpg" alt="" width="120" height="180" loading="lazy">
+<h2>이번엔 끝까지,<br>내 링크 하나 만들어 봐요.</h2>
+<div class="buy"><a class="btn white" href="https://kmong.com/gig/849120" rel="noopener">크몽에서 구매하기</a><a class="btn glass" href="https://smartstore.naver.com/tomixsoft/products/13835623505" rel="noopener">네이버 스마트스토어</a></div>
+</div></section>
+</main>
+<footer class="foot"><div class="wrap">
+<div class="foot-top"><a class="brand" href="./"><img src="./assets/cover-thumb.jpg" alt="" width="26" height="38"><span>바이브 코딩, 끝까지 만드는 법</span></a>
+<div class="foot-links"><a href="https://kmong.com/gig/849120" rel="noopener">크몽</a><a href="https://smartstore.naver.com/tomixsoft/products/13835623505" rel="noopener">스마트스토어</a><a href="https://ssakduk.tmhub.co.kr/" rel="noopener">싹둑</a><a href="mailto:ehrbs50@gmail.com">문의</a></div></div>
+<p class="foot-note">이 책은 Anthropic과 제휴 관계가 없는 독립 저작물이며, Claude와 Claude Code는 Anthropic의 상표입니다. 화면과 메뉴 이름은 2026년 11월 기준이며 도구 업데이트에 따라 달라질 수 있습니다. 실습 예시 인물과 데이터는 모두 가상입니다.</p>
+<p class="foot-note">© 2026 투믹스소프트 · 김도균 · ehrbs50@gmail.com</p>
+</div></footer>
+<script>
+(function(){var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12}):null;
+document.querySelectorAll('.rv').forEach(function(el){io?io.observe(el):el.classList.add('in');});
+var top=document.querySelector('.top');window.addEventListener('scroll',function(){top.classList.toggle('scrolled',scrollY>8)},{passive:true});})();
+</script>
+</body>
+</html>
